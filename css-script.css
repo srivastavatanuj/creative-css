@@ -1,2 +1,878 @@
-bgggg{color:red}
-.test{color:blue}
+.h1 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 16vh;
+  z-index: 10;
+}
+
+.h2 {
+  height: 4rem; /* Equivalent to Tailwind's h-16 */
+  background-size: contain;
+}
+
+.h3 {
+  font-weight: bold; /* Equivalent to Tailwind's font-bold */
+  font-size: 1.875rem; /* Equivalent to text-3xl */
+  color: white; /* Equivalent to text-white */
+  display: flex; /* Equivalent to flex */
+  height: 100%; /* Equivalent to h-full */
+  align-items: center; /* Equivalent to items-center */
+  justify-content: center; /* Equivalent to justify-center */
+  font-style: italic; /* Equivalent to italic */
+  font-family: "Roadgeek 2005 Transport Medium", sans-serif; /* Inline font family */
+}
+
+.h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.h5 {
+  margin: auto;
+  overflow: hidden;
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  transform: translateY(0px);
+  animation: float 6s ease-in-out infinite;
+}
+
+/* footer */
+/* styles.css */
+
+/* .f1: Flex container with evenly distributed items at the bottom */
+.f1 {
+  display: flex; /* Equivalent to 'flex' */
+  justify-content: space-evenly; /* Equivalent to 'justify-evenly' */
+  position: fixed; /* Equivalent to 'fixed' */
+  bottom: 0; /* Positioning at the bottom */
+  padding-top: 0.5rem; /* Equivalent to 'py-2' */
+  padding-bottom: 0.5rem; /* Equivalent to 'py-2' */
+  width: 100%; /* Equivalent to 'w-full' */
+  align-items: center; /* Equivalent to 'items-center' */
+}
+
+/* .f2: Flex column layout with centered items */
+.f2 {
+  display: flex; /* Equivalent to 'flex' */
+  flex-direction: column; /* Equivalent to 'flex-col' */
+  align-items: center; /* Equivalent to 'items-center' */
+  cursor: pointer; /* Equivalent to 'cursor-pointer' */
+}
+
+/* .f3: Width and height for an element */
+.f3 {
+  width: 2rem; /* Equivalent to 'w-8' (2rem = 8 * 0.25rem) */
+  height: 1.75rem; /* Equivalent to 'h-7' (1.75rem = 7 * 0.25rem) */
+}
+
+/* .f4: Font styling */
+.f4 {
+  font-weight: 600; /* Equivalent to 'font-semibold' */
+  font-size: 0.875rem; /* Equivalent to 'text-sm' */
+  color: white; /* Equivalent to 'text-white' */
+}
+
+.g1 {
+  position: absolute; /* Equivalent to 'absolute' */
+  width: 100%; /* Equivalent to 'w-full' */
+  height: 100%; /* Equivalent to 'h-full' */
+  z-index: 10; /* Equivalent to 'z-10' */
+  display: flex; /* Equivalent to 'flex' */
+  align-items: center; /* Equivalent to 'items-center' */
+  justify-content: center; /* Equivalent to 'justify-center' */
+  background-color: black; /* Corrected to use CSS property syntax */
+}
+
+/* .g2: Full viewport height and width with a black background */
+.g2 {
+  height: 100vh; /* Equivalent to 100% viewport height */
+  width: 100%; /* Equivalent to 100% width */
+  background-color: black; /* Corrected to use CSS property syntax */
+}
+
+/* styles.css */
+
+/* .ga1: Centered, large font with flex layout */
+.ga1 {
+  font-weight: 600; /* Equivalent to 'font-semibold' */
+  color: white; /* Equivalent to 'text-white' */
+  font-size: 2.25rem; /* Equivalent to 'text-4xl' */
+  text-align: center; /* Equivalent to 'text-center' */
+  display: flex; /* Equivalent to 'flex' */
+  justify-content: space-around; /* Equivalent to 'justify-around' */
+  font-family: "Roadgeek 2005 Transport Medium", sans-serif; /* Font family */
+}
+
+/* .ga2: Centered with padding and rounded corners */
+.ga2 {
+  text-align: center; /* Equivalent to 'text-center' */
+  background-color: white; /* Equivalent to 'bg-white' */
+  font-weight: 500; /* Equivalent to 'font-medium' */
+  font-size: 1.125rem; /* Equivalent to 'text-lg' */
+  margin-top: 1.25rem; /* Equivalent to 'mt-5' */
+  width: 60%; /* Equivalent to 'w-[60%]' */
+  padding: 0.5rem; /* Equivalent to 'p-2' */
+  border-radius: 9999px; /* Equivalent to 'rounded-full' */
+  margin: auto; /* Equivalent to 'm-auto' */
+  cursor: pointer; /* Equivalent to 'cursor-pointer' */
+}
+
+/* .ga3: Minimum height */
+.ga3 {
+  min-height: 300px; /* Equivalent to 'min-h-[300px]' */
+}
+
+/* .ga4: Width, margin, overflow, and height */
+.ga4 {
+  width: 80vw; /* Equivalent to 'w-[80vw]' */
+  margin: auto; /* Equivalent to 'm-auto' */
+  overflow: auto; /* Equivalent to 'overflow-auto' */
+  height: calc(100vh - 395px - 65px); /* Corrected syntax */
+}
+.ga4::-webkit-scrollbar {
+  display: none;
+}
+
+/* .ga5: Flex layout with spacing */
+.ga5 {
+  display: flex; /* Equivalent to 'flex' */
+  justify-content: space-between; /* Equivalent to 'justify-between' */
+  color: white; /* Equivalent to 'text-white' */
+  margin-bottom: 1rem; /* Equivalent to 'mb-4' */
+  align-items: center; /* Equivalent to 'items-center' */
+}
+
+/* .ga6: Medium font with flex layout */
+.ga6 {
+  font-weight: 500; /* Equivalent to 'font-medium' */
+  font-size: 1.25rem; /* Equivalent to 'text-xl' */
+  display: flex; /* Equivalent to 'flex' */
+}
+
+/* .ga7: Button styling */
+.ga7 {
+  font-weight: 500; /* Equivalent to 'font-medium' */
+  font-weight: 900; /* Equivalent to 'font-black' */
+  border-radius: 9999px; /* Equivalent to 'rounded-full' */
+  padding: 0.25rem; /* Equivalent to 'p-1' */
+  background-color: #00448f; /* Equivalent to 'bg-[#00448f]' */
+  margin-right: 0.5rem; /* Equivalent to 'mr-2' */
+  min-height: 2.25rem; /* Equivalent to 'min-h-9' */
+  min-width: 2.25rem; /* Equivalent to 'min-w-9' */
+  text-align: center; /* Equivalent to 'text-center' */
+  font-size: 1rem; /* Equivalent to 'fontSize: "1.00rem"' */
+  line-height: 1.7rem; /* Equivalent to 'lineHeight: "1.70rem"' */
+}
+
+/* .ga8: Font size and padding */
+.ga8 {
+  font-size: 1rem; /* Equivalent to 'fontSize: "1.00rem"' */
+  font-weight: 500; /* Equivalent to 'font-medium' */
+  line-height: 1.7rem; /* Equivalent to 'lineHeight: "1.70rem"' */
+  padding-top: 0.25rem; /* Equivalent to 'paddingTop: "0.25rem"' */
+}
+
+/* .ga9: Font size and weight */
+.ga9 {
+  font-size: 1rem; /* Equivalent to 'text-xl' */
+  font-weight: 500; /* Equivalent to 'font-medium' */
+}
+
+/* .ga10: Fixed footer styling */
+.ga10 {
+  background-color: #232323; /* Equivalent to 'bg-[#232323]' */
+  position: fixed; /* Equivalent to 'fixed' */
+  bottom: 0; /* Positioning at the bottom */
+  width: 100%; /* Equivalent to 'w-full' */
+  z-index: 20; /* Equivalent to 'z-20' */
+  border-radius: 1.5rem 1.5rem 0 0; /* Equivalent to 'rounded-t-3xl' */
+}
+
+/* .ga11: Bold header styling */
+.ga11 {
+  font-size: 1.5rem; /* Equivalent to 'text-2xl' */
+  font-weight: 700; /* Equivalent to 'font-bold' */
+  color: white; /* Equivalent to 'text-white' */
+  border-bottom: 2px solid white; /* Equivalent to 'border-b-white border-b-2' */
+  padding: 1rem; /* Equivalent to 'p-4' */
+  text-align: center; /* Equivalent to 'text-center' */
+  position: relative; /* Equivalent to 'relative' */
+}
+
+/* .ga12: Text styling for an absolute positioned element */
+.ga12 {
+  color: #a0aec0; /* Equivalent to 'text-gray-400' */
+  font-weight: 700; /* Equivalent to 'font-bold' */
+  font-size: 1.5rem; /* Equivalent to 'text-2xl' */
+  position: absolute; /* Equivalent to 'absolute' */
+  right: 2.5rem; /* Equivalent to 'right-10' */
+  top: 25%; /* Equivalent to 'top-1/4' */
+  cursor: pointer; /* Equivalent to 'cursor-pointer' */
+}
+
+/* .ga13: Flex column with spacing */
+.ga13 {
+  display: flex; /* Equivalent to 'flex' */
+  flex-direction: column; /* Equivalent to 'flex-col' */
+  gap: 1rem; /* Equivalent to 'gap-4' */
+  margin: 1rem 0; /* Equivalent to 'my-4' */
+  align-items: center; /* Equivalent to 'items-center' */
+}
+
+/* .ga14: Button with transitions */
+.ga14 {
+  font-weight: 500; /* Equivalent to 'font-medium' */
+  border-radius: 9999px; /* Equivalent to 'rounded-full' */
+  padding: 0.5rem 3rem; /* Equivalent to 'p-2 px-12' */
+  background-color: white; /* Equivalent to 'bg-white' */
+  width: fit-content; /* Equivalent to 'w-fit' */
+  transition: all 0.15s ease-in-out; /* Equivalent to 'transition duration-150 ease-in-out' */
+  transform: scale(1); /* Initial state for scale */
+}
+
+/* .ga14: Active state for button scaling */
+.ga14:active {
+  transform: scale(0.95); /* Equivalent to 'active:scale-95' */
+}
+
+/* styles.css */
+
+/* .s1: Full height, centered flex layout with a black background */
+.s1 {
+  display: flex; /* Equivalent to 'flex' */
+  justify-content: center; /* Equivalent to 'justify-center' */
+  align-items: center; /* Equivalent to 'items-center' */
+  height: 100vh; /* Equivalent to 'h-[100vh]' */
+  background-color: black; /* Equivalent to 'bg-black' */
+  background-size: cover; /* Corrected syntax for background size */
+}
+
+/* .s2: Centered white text */
+.s2 {
+  color: white; /* Equivalent to 'text-white' */
+  text-align: center; /* Equivalent to 'text-center' */
+}
+
+/* .s3: Large bold text with negative vertical margin */
+.s3 {
+  font-size: 12rem; /* Equivalent to 'text-[12rem]' */
+  font-weight: bold; /* Equivalent to 'font-bold' */
+  margin-top: -3rem; /* Equivalent to '-my-12' (negative vertical margin) */
+  margin-bottom: -3rem; /* Equivalent to '-my-12' */
+}
+
+/* .s4: Medium large bold text with vertical margin */
+.s4 {
+  font-size: 1.875rem; /* Equivalent to 'text-3xl' */
+  font-weight: bold; /* Equivalent to 'font-bold' */
+  margin: 1rem 0; /* Equivalent to 'my-4' (vertical margin) */
+}
+
+/* .s5: Large medium weight text */
+.s5 {
+  font-size: 1.5rem; /* Equivalent to 'text-2xl' */
+  font-weight: 500; /* Equivalent to 'font-medium' */
+}
+
+/* .s6: Fixed bottom layout with black background */
+.s6 {
+  width: 90vw; /* Equivalent to 'w-[90vw]' */
+  margin: auto; /* Equivalent to 'm-auto' */
+  position: fixed; /* Equivalent to 'fixed' */
+  bottom: 0; /* Positioning at the bottom */
+  padding-bottom: 1.25rem; /* Equivalent to 'pb-5' */
+  background-color: black; /* Equivalent to 'bg-black' */
+  z-index: 10; /* Equivalent to 'z-10' */
+}
+
+/* .s7: Gray text with margin */
+.s7 {
+  color: #a0aec0; /* Equivalent to 'text-gray-400' */
+  margin-bottom: 1rem; /* Equivalent to 'mb-4' */
+  text-align: center; /* Equivalent to 'text-center' */
+}
+
+/* .s8: White rounded button with padding */
+.s8 {
+  background-color: white; /* Equivalent to 'bg-white' */
+  border-radius: 0.5rem; /* Equivalent to 'rounded-lg' */
+  font-weight: 500; /* Equivalent to 'font-medium' */
+  font-size: 1.25rem; /* Equivalent to 'text-xl' */
+  width: 100%; /* Equivalent to 'w-full' */
+  padding: 0.75rem 0; /* Equivalent to 'py-3' */
+}
+
+.ho1 {
+  font-weight: 600; /* Equivalent to font-semibold */
+  color: white;
+  font-size: 2.25rem; /* Equivalent to text-4xl */
+  text-align: center;
+  font-style: italic;
+  font-family: "Roadgeek 2005 Transport Medium", sans-serif;
+}
+
+.ho2 {
+  background-size: 250% auto; /* Adjusting the size to ensure full coverage */
+  color: #fff;
+  background: linear-gradient(90deg, #fff 10%, #25abe8 30%, #fff 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 1.5s linear infinite;
+  display: inline-block;
+  padding-right: 5px; /* Add padding to prevent trimming */
+  overflow: visible; /* Ensure the text is not clipped */
+}
+
+.ho3 {
+  background-color: white;
+  border-radius: 9999px; /* Equivalent to rounded-full */
+  color: black;
+  font-size: 1.25rem; /* Equivalent to text-2xl */
+  padding-left: 1.5rem; /* Equivalent to px-6 */
+  padding-right: 1.5rem; /* Equivalent to px-6 */
+  padding-top: 0.5rem; /* Equivalent to py-2 */
+  padding-bottom: 0.5rem; /* Equivalent to py-2 */
+  margin-top: 1.25rem; /* Equivalent to mt-5 */
+  font-style: italic;
+}
+
+.ho4 {
+  font-weight: 100; /* Equivalent to font-thin */
+  font-size: 20px; /* Correcting syntax */
+  color: #ff5d5d;
+}
+
+.ho5 {
+  max-width: 500px;
+  width: 80vw;
+  min-height: 5rem; /* Equivalent to min-h-20 */
+  background-color: #0b0b1e;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid gray;
+  border-radius: 0.75rem; /* Equivalent to rounded-xl */
+  padding: 2rem; /* Equivalent to p-8 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ho6 {
+  font-weight: bold;
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+
+.ho7 {
+  border-radius: 0.75rem; /* Equivalent to rounded-xl */
+  padding: 0.5rem; /* Equivalent to p-2 */
+  outline: none;
+  margin: 1rem 0; /* Equivalent to my-4 */
+  width: 100%; /* Full width */
+}
+
+.ho8 {
+  border-radius: 9999px; /* Equivalent to rounded-full */
+  background-color: white;
+  font-weight: bold;
+  font-style: italic;
+  width: fit-content; /* Equivalent to w-fit */
+  padding-left: 0.5rem; /* Equivalent to px-2 */
+  padding-right: 0.5rem; /* Equivalent to px-2 */
+  padding-top: 0.25rem; /* Equivalent to py-1 */
+  padding-bottom: 0.25rem; /* Equivalent to py-1 */
+}
+
+.ho9 {
+  position: absolute;
+  right: 1rem; /* Equivalent to right-4 */
+  top: 1rem; /* Equivalent to top-4 */
+  font-weight: 900; /* Equivalent to font-black */
+  font-size: 1.125rem; /* Equivalent to text-lg */
+  color: white;
+  cursor: pointer;
+}
+
+.ho10 {
+  min-height: 315px; /* Equivalent to min-h-[310px] */
+}
+
+.ho11 {
+  width: 85vw; /* Equivalent to w-[85vw] */
+  margin: 0 auto; /* Equivalent to m-auto */
+  overflow: auto; /* Equivalent to overflow-auto */
+  height: calc(
+    var(--tg-viewport-stable-height, 100vh) - 380px
+  ); /* Fixed height calculation */
+}
+.ho11::-webkit-scrollbar {
+  display: none;
+}
+
+.ho12 {
+  color: gray; /* Equivalent to text-gray-300 */
+  font-size: 1.125rem; /* Equivalent to text-lg */
+  text-align: center;
+  font-style: italic;
+}
+
+.ho13 {
+  color: white;
+  font-size: 2rem; /* Equivalent to text-4xl */
+  font-weight: bold;
+  margin-top: 0.5rem; /* Equivalent to my-2 */
+}
+
+.ho14 {
+  height: 2.25rem; /* Equivalent to h-9 */
+  width: 2.25rem; /* Equivalent to w-9 */
+  margin-right: 1rem; /* Equivalent to mr-4 */
+}
+
+.ho15 {
+  font-weight: 500; /* Equivalent to font-medium */
+  font-size: 0.8rem; /* Fixed fontSize */
+  line-height: 1rem; /* Fixed lineHeight */
+}
+
+.ho16 {
+  font-size: 1rem; /* Equivalent to text-base */
+  color: gray; /* Equivalent to text-gray-400 */
+  font-style: italic;
+}
+
+.ho17 {
+  background-color: white;
+  color: black;
+  font-weight: 500; /* Equivalent to font-medium */
+  border-radius: 9999px; /* Equivalent to rounded-full */
+  margin: 0.25rem 0; /* Equivalent to my-1 */
+  padding-left: 1rem; /* Equivalent to px-4 */
+  padding-right: 1rem; /* Equivalent to px-4 */
+  font-size: 15px; /* Equivalent to text-[15px] */
+}
+
+.ho18 {
+  display: flex;
+  justify-content: space-between; /* Equivalent to justify-between */
+  color: white;
+  margin: 0.75rem 0; /* Equivalent to my-3 */
+  align-items: center; /* Equivalent to items-center */
+}
+
+.ho19 {
+  display: flex;
+  justify-content: space-between; /* Equivalent to justify-between */
+}
+
+.ho20 {
+  height: 2.25rem; /* Equivalent to h-9 */
+  width: 2.25rem; /* Equivalent to w-9 */
+  margin-right: 1rem; /* Equivalent to mr-4 */
+  display: flex;
+  text-wrap: nowrap;
+}
+
+.ho21 {
+  font-weight: 500; /* Equivalent to font-medium */
+  font-size: 0.8rem; /* Fixed fontSize */
+  line-height: 1rem; /* Fixed lineHeight */
+}
+
+.ho22 {
+  font-size: 1rem; /* Equivalent to text-base */
+  color: gray; /* Equivalent to text-gray-400 */
+}
+
+.ho23 {
+  background-color: white;
+  color: black;
+  font-weight: 500; /* Equivalent to font-medium */
+  border-radius: 9999px; /* Equivalent to rounded-full */
+  margin-left: 0.5rem; /* Equivalent to ml-2 */
+  padding-top: 0.3rem; /* Equivalent to paddingTop */
+  padding-bottom: 0.3rem; /* Equivalent to paddingBottom */
+  padding-left: 0.8rem; /* Equivalent to paddingLeft */
+  padding-right: 0.8rem; /* Equivalent to paddingRight */
+  font-size: 15px; /* Fixed fontSize */
+}
+
+.ho24 {
+  background-color: white;
+  color: black;
+  font-weight: medium; /* Equivalent to font-medium */
+  border-radius: 9999px; /* Equivalent to rounded-full */
+  margin-left: 0.5rem; /* Equivalent to ml-2 */
+  transition: all 0.15s ease-in-out; /* Equivalent to transition duration-150 ease-in-out */
+  transform: scale(1); /* Initial scale */
+  padding-top: 0.3rem; /* Equivalent to paddingTop */
+  padding-bottom: 0.3rem; /* Equivalent to paddingBottom */
+  padding-left: 0.8rem; /* Equivalent to paddingLeft */
+  padding-right: 0.8rem; /* Equivalent to paddingRight */
+  font-size: 15px; /* Fixed fontSize */
+  background-color: rgba(95, 184, 106, 0.76); /* Background color */
+  color: white; /* Text color */
+  border: 1px solid white; /* Border */
+}
+
+.ho25 {
+  margin-top: 1.75rem; /* Equivalent to mt-7 */
+}
+
+.ho26 {
+  color: white;
+  font-size: 2rem; /* Equivalent to text-4xl */
+  font-weight: bold;
+  margin: 0.5rem 0; /* Equivalent to my-2 */
+}
+
+.ho27 {
+  color: gray; /* Equivalent to text-gray-300 */
+  font-size: 1.125rem; /* Equivalent to text-lg */
+  text-align: center;
+  font-style: italic;
+}
+
+.ho28 {
+  display: flex;
+  justify-content: space-between; /* Equivalent to justify-between */
+  color: white;
+  margin: 0.75rem 0; /* Equivalent to my-3 */
+  align-items: center; /* Equivalent to items-center */
+}
+
+.ho29 {
+  display: flex;
+  align-items: center; /* Equivalent to items-center */
+}
+
+.ho30 {
+  height: 2.25rem; /* Equivalent to h-9 */
+  width: 2.25rem; /* Equivalent to w-9 */
+  margin-right: 1rem;
+}
+
+.ho31 {
+  font-size: 1.125rem; /* Equivalent to text-lg */
+  color: white;
+  font-weight: 600; /* Equivalent to font-semibold */
+  font-size: 1rem; /* Fixed fontSize */
+}
+
+.l1 {
+  font-weight: bold; /* Equivalent to font-bold */
+  color: white; /* Equivalent to text-white */
+  font-size: 2.25rem; /* Equivalent to text-4xl */
+  text-align: center; /* Equivalent to text-center */
+  font-style: italic; /* Equivalent to italic */
+  font-family: "Roadgeek 2005 Transport Medium", sans-serif; /* Fixed fontFamily syntax */
+}
+
+.l2 {
+  text-align: center; /* Equivalent to text-center */
+  color: white; /* Equivalent to text-white */
+  font-weight: 600; /* Equivalent to font-semibold */
+  font-size: 1.5rem; /* Equivalent to text-2xl */
+  margin-top: 0.5rem; /* Equivalent to mt-2 */
+  font-family: "Roadgeek 2005 Transport Medium", sans-serif; /* Fixed fontFamily syntax */
+}
+
+.l3 {
+  border-radius: 0.75rem; /* Equivalent to rounded-xl */
+  width: 90%; /* Equivalent to w-[90%] */
+  margin: 0 auto; /* Equivalent to m-auto */
+  min-height: 3rem; /* Equivalent to min-h-12 */
+  background-color: rgba(0, 68, 143, 0.5); /* Equivalent to bg-[#00448F80] */
+  display: flex; /* Equivalent to flex */
+  justify-content: space-between; /* Equivalent to justify-between */
+  align-items: center; /* Equivalent to items-center */
+}
+
+.l4 {
+  font-size: 1rem; /* Equivalent to text-base */
+  display: flex; /* Equivalent to flex */
+  align-items: center; /* Equivalent to items-center */
+  justify-content: center; /* Equivalent to justify-center */
+  padding: 0 1rem; /* Equivalent to px-4 */
+}
+
+.l5 {
+  font-size: 0.875rem; /* Equivalent to text-sm */
+  font-weight: 400; /* Equivalent to font-regular */
+  border-radius: 9999px; /* Equivalent to rounded-full */
+  padding: 0.5rem; /* Equivalent to p-2 */
+  color: white; /* Fixed color property */
+  background-color: #00448f; /* Equivalent to bg-[#00448f] */
+  margin-right: 0.5rem; /* Equivalent to mr-2 */
+  min-height: 1.25rem; /* Equivalent to min-h-5 */
+  min-width: 1.25rem; /* Equivalent to min-w-5 */
+  height: 2.25rem; /* Equivalent to h-9 */
+  width: 2.25rem; /* Equivalent to w-9 */
+  text-align: center; /* Equivalent to text-center */
+}
+
+.l6 {
+  padding-right: 1.25rem; /* Equivalent to pr-5 */
+  font-weight: 400; /* Equivalent to font-normal */
+  font-size: 1.125rem; /* Equivalent to text-lg */
+}
+
+.l7 {
+  font-style: italic; /* Equivalent to italic */
+  font-size: 0.875rem; /* Equivalent to text-sm */
+  background-color: rgba(
+    129,
+    255,
+    134,
+    0.35
+  ); /* Equivalent to bg-[#81FF8659] */
+  border-radius: 9999px; /* Equivalent to rounded-full */
+  width: fit-content; /* Equivalent to w-fit */
+  padding: 0.25rem 0.5rem; /* Equivalent to p-1 and px-2 */
+}
+
+.l8 {
+  color: white; /* Equivalent to text-white */
+  font-size: 2.25rem; /* Equivalent to text-4xl */
+  font-weight: bold; /* Equivalent to font-bold */
+  margin-left: 2.5rem; /* Equivalent to my-2 mb-4 ml-6 */
+}
+
+.l9 {
+  display: flex; /* Equivalent to display: "flex" */
+  align-items: center; /* Equivalent to alignItems: "center" */
+  justify-content: center; /* Equivalent to justifyContent: "center" */
+  width: 50px; /* Set a fixed width */
+  height: 50px; /* Set a fixed height */
+}
+
+.l10 {
+  min-height: 385px; /* Equivalent to min-h-[370px] */
+}
+
+.l11 {
+  width: 80vw; /* Equivalent to w-[80vw] */
+  margin: 0 auto; /* Equivalent to m-auto */
+  overflow: auto; /* Equivalent to overflow-auto */
+  height: calc(
+    100vh - 440px
+  ); /* Equivalent to height: "calc(-430px + 100vh)" */
+}
+
+/* Hide scrollbar styles */
+.l11::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Safari and Chrome */
+}
+
+.l11 {
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+.l12 {
+  font-size: 1.2rem; /* Equivalent to text-base */
+  font-weight: bold; /* Equivalent to font-bold */
+  border-radius: 9999px; /* Equivalent to rounded-full */
+  padding: 6px; /* Equivalent to p-custom */
+  color: white; /* Fixed color property */
+  background-color: #00448f; /* Equivalent to bg-[#00448f] */
+  margin-right: 0.5rem; /* Equivalent to mr-2 */
+  min-height: 2.25rem; /* Equivalent to min-h-9 */
+  min-width: 2.25rem; /* Equivalent to min-w-9 */
+  width: 2.5rem; /* Equivalent to w-10 */
+  height: 2.5rem; /* Equivalent to h-10 */
+  text-align: center; /* Equivalent to text-center */
+}
+
+.l13 {
+  font-size: 1rem; /* Equivalent to text-base */
+  color: #a0aec0; /* Equivalent to text-gray-400 */
+  font-style: italic; /* Equivalent to italic */
+}
+
+.l14 {
+  font-size: 1.25rem; /* Equivalent to text-xl */
+}
+.p1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.p3 {
+  height: 4rem; /* 16 = 4rem */
+  width: 4rem; /* 16 = 4rem */
+  border: 2px solid black;
+  border-radius: 0.375rem; /* rounded-md */
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: bold;
+}
+
+.p4 {
+  color: #6b86e2;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.p5 {
+  height: 4rem; /* 16 = 4rem */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background-size: contain; /* Use 'background-size' instead of 'backgroundSize' */
+}
+
+.p6 {
+  font-weight: bold;
+  font-size: 1.875rem; /* text-3xl */
+  color: white;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  font-family: "Roadgeek 2005 Transport Medium", sans-serif; /* Use 'font-family' instead of 'fontFamily' */
+}
+
+.p7 {
+  overflow: auto;
+  margin-top: 4rem; /* mt-16 */
+  height: calc(100vh - 130px); /* Use height calculation correctly */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+.p8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0; /* my-4 */
+}
+
+.p9 {
+  background-color: white;
+  border-radius: 0.75rem; /* rounded-xl */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* gap-2 */
+  padding: 0.25rem 0.5rem; /* py-1 px-2 */
+  margin: 1rem auto; /* mx-auto my-4 */
+  cursor: pointer;
+}
+
+.p10 {
+  font-weight: bold;
+  font-size: 1.875rem; /* text-3xl */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  font-family: "Roadgeek 2005 Transport Medium", sans-serif;
+}
+
+.p11 {
+  border: 1px solid; /* rounded */
+  border-radius: 1.875rem; /* rounded-3xl */
+  padding: 0.625rem; /* p-2.5 */
+  background-color: #d9d9d9;
+  border-color: black; /* border-black */
+  text-indent: 0.5rem; /* indent-2 */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 0.875rem; /* text-sm */
+}
+
+.p12 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem; /* gap-5 */
+  margin-top: 1.25rem; /* mt-5 */
+  margin-left: 2rem; /* mx-8 */
+  margin-right: 2rem; /* mx-8 */
+}
+
+.p13 {
+  font-weight: bolder; /* font-black */
+  font-size: 1.875rem; /* text-3xl */
+  font-style: italic;
+}
+
+.p14 {
+  margin: 0.25rem 0; /* my-1 */
+  padding: 0.5rem 0; /* py-2 */
+}
+
+.p15 {
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 500; /* font-medium */
+}
+
+.p16 {
+  width: 100%;
+}
+
+.p17 {
+  width: 90%;
+  margin: auto; /* m-auto */
+}
+
+.p18 {
+  color: white;
+  font-style: italic;
+  font-size: 1rem; /* text-base */
+}
+
+.p19 {
+  font-weight: bold; /* font-bold */
+  border: 0; /* border-0 */
+  background-color: #a9bcff; /* !bg-[#A9BCFF] */
+  margin: 1rem 0; /* my-4 */
+}
+
+.p20 {
+  font-weight: bolder; /* font-black */
+  font-size: 1.875rem; /* text-3xl */
+  font-style: italic;
+}
+
+.p21 {
+  margin: 1.25rem 0; /* my-5 */
+  width: 80%; /* w-[80%] */
+  margin-left: auto; /* mx-auto */
+  margin-right: auto; /* mx-auto */
+}
+
+.p22 {
+  border-spacing: 1px; /* border-spacing-1 */
+  padding: 2.5rem 0; /* py-10 */
+}
+
+.p23 {
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 500; /* font-medium */
+  white-space: nowrap; /* text-nowrap */
+  padding: 1rem 0; /* py-4 */
+}
+
+.p24 {
+  font-weight: bold; /* font-bold */
+  border: 0; /* border-0 */
+  background-color: #a9bcff; /* !bg-[#A9BCFF] */
+}
